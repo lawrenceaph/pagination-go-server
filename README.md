@@ -128,7 +128,7 @@ To run this server locally, follow these steps:
 
 1. Download the [pagination server file](https://github.com/lawrenceaph/pagination-go-server/releases/download/v0.1/pagination-server). 
 
-2. Run the file. 
+2. Run the file via command line. 
 
 ```  
 ./pagination-server 
