@@ -126,14 +126,13 @@ curl -X GET "https://pagination-go-server-vxmdjsq65a-uc.a.run.app/api?page=1&per
 
 To run this server locally, follow these steps:
 
-1. Download the [pagination server file](https://github.com/lawrenceaph/pagination-go-server/releases/download/v0.1/pagination-server). 
-
-2. Run the file via command line. 
-
+1. Download the pagination server file (see releases for latest). Update permissions and run it:
 ```  
+chmod +x ./pagination-server 
 ./pagination-server 
 ```
-3. Visit http://localhost:8080 to see the documentation or http://localhost:8080/api to test the api. 
+
+2. Visit http://localhost:8080 to see the documentation or http://localhost:8080/api to test the api. 
 
 ### Example Local Requests
 
