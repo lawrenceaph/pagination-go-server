@@ -64,7 +64,7 @@ The API returns a JSON object containing the requested objects and the next page
 Fetches the first page with 10 objects per page (default behavior).
 
 ```bash
-curl -X GET "https://your-cloud-run-url/api"
+curl -X GET "https://pagination-go-server-vxmdjsq65a-uc.a.run.app/api"
 ```
 
 #### Fetch Specific Page
@@ -72,7 +72,7 @@ curl -X GET "https://your-cloud-run-url/api"
 Fetches the second page with 10 objects per page.
 
 ```bash
-curl -X GET "https://your-cloud-run-url/api?page=2"
+curl -X GET "https://pagination-go-server-vxmdjsq65a-uc.a.run.app/api?page=2"
 ```
 
 #### Fetch Specific Page with Custom Objects per Page
@@ -80,7 +80,7 @@ curl -X GET "https://your-cloud-run-url/api?page=2"
 Fetches the second page with 20 objects per page.
 
 ```bash
-curl -X GET "https://your-cloud-run-url/api?page=2&perPage=20"
+curl -X GET "https://pagination-go-server-vxmdjsq65a-uc.a.run.app/api?page=2&perPage=20"
 ```
 
 #### Fetch with Long Content
@@ -88,7 +88,7 @@ curl -X GET "https://your-cloud-run-url/api?page=2&perPage=20"
 Fetches the first page with 10 objects per page, with each object containing long "Lorem Ipsum" content.
 
 ```bash
-curl -X GET "https://your-cloud-run-url/api?page=1&perPage=10&longContent=true"
+curl -X GET "https://pagination-go-server-vxmdjsq65a-uc.a.run.app/api?page=1&perPage=10&longContent=true"
 ```
 
 ### Example Responses
