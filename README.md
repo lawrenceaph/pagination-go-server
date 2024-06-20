@@ -41,7 +41,7 @@ The API returns a JSON object containing the requested objects and the next page
         "content": "random content 2",
         "image": "https://placehold.co/600x400"
       }
-      ...
+      
     ],
     "nextPage": 2
   }
